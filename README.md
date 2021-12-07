@@ -42,7 +42,6 @@ make ml
 ```
 ## To install the GSL library 
 The following can be helpful for raspbian operating system:
-```bash
 https://www.gnu.org/software/gsl/ = Download the latest version of the GSL library from this link
 ```bash
 Then in the installed folder, use the below commands:
