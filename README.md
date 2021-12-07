@@ -40,3 +40,8 @@ You will need the dashboard IP to run a factory (the dashboard should be started
 make ml
 ./ml [dashboard ip address]
 ```
+To install the GSL library, the following commands can be helpful for raspbian operating system:
+https://www.gnu.org/software/gsl/ = Download the latest version of the GSL library from this link
+Then in the installed folder, use the below commands:
+./configure && make && make install
+sudo apt-get install libgsl-dev ( some gsl libraries will require use of libgsl to execute)
